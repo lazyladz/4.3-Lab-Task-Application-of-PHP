@@ -30,7 +30,7 @@ $user = $_SESSION['user'];
             <h4>Welcome, <?= htmlspecialchars($user['name']); ?>!</h4>
             <p><strong>Email:</strong> <?= htmlspecialchars($user['email']); ?></p>
             <p><strong>User ID:</strong> <?= $user['id']; ?></p>
-            <a href="logout.php" class="btn btn-outline-danger">Logout</a>
+            <a href="logout.php" class="btn btn-outline-secondary">Logout</a>
         </div>
     </div>
 </div>
